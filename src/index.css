@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   overflow-x: hidden;
+   width: 100vw;
+   min-height: 100vh;
+   background-color: #ccc;
+}
+
+.title {
+   background-color: #fff;
+   padding: 1.5rem ;
+   color: rgb(70, 67, 67);
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+.cardBox {
+   width: auto;
+   margin: 0 auto;
+   height: 100%;
+   padding: 5rem 2rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   gap: 1.5rem;
+}
+
+@media screen and (max-width: 1540px) {.cardBox {width: 81rem;}}
+@media screen and (max-width: 1288px) {.cardBox {width: 61rem;}}
+@media screen and (max-width: 975px) {.cardBox {width: 42rem;}}
+@media screen and (max-width: 664px) {.cardBox {width: 20rem;}}
+
+.card {
+   width: 18rem;
+   height: 25rem;
+   overflow: hidden;
+   background-color: #fff;
+   border-radius: 1rem;
+   box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+   transform: scale(1);
+   transition: all 0.2s ease-in;
+}
+
+.card:hover {
+   box-shadow: 5px 7px 12px rgba(0,0,0,0.2);
+   transform: scale(1.01);
+}
+
+.card img {
+   width: 18rem;
+   height: 18rem;
+}
+
+.card .card_info {
+   padding: 1rem 0rem 1rem 2rem;
+   font-family: 'Nunito', sans-serif;
+}
+
+.card .card_category {
+   letter-spacing: 2px;
+   font-size: 0.8rem;
+   font-weight: bold;
+   color: rgb(139, 139, 139);
+   text-transform: uppercase;
+}
+
+.card button {
+   padding: 0.2rem 0.3rem;
+   margin-top: 0.5rem;
+   text-transform: uppercase;
+   font-size: 0.7rem;
+   letter-spacing: 2px;
+   color: rgb(139, 139, 139);
+   background-color: #fff;
+   cursor: pointer;
+   outline: none;
+   border: 2px solid rgb(145, 145, 145);
+}
+
+.card button:hover {
+   color: #fff;
+   background-color: rgb(34, 34, 34);
+}
