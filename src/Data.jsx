@@ -15,7 +15,7 @@ const Data = [
    },
    {
       id: 3,
-      imgsrc: "https://static.wikia.nocookie.net/lostinspace/images/0/08/Lost-in-space-poster.jpg/revision/latest?cb=20180306154741",
+      imgsrc: "https://i0.wp.com/thegameofnerds.com/wp-content/uploads/2020/09/The-Digital-Wise-8.jpg?fit=1280%2C720&ssl=1",
       heading: " A Netflix Original Series ",
       name: " Lost In Space ",
       link: "https://www.netflix.com/in/title/80104198",
